@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minha Loja Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #007bff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .product {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      width: 220px;
+      padding: 15px;
+      text-align: center;
+      transition: box-shadow 0.3s ease;
+    }
+    .product:hover {
+      box-shadow: 0 0 15px rgba(0,123,255,0.6);
+    }
+    .product img {
+      width: 100%;
+      height: 150px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+      font-size: 1.1rem;
+    }
+    .product p {
+      font-size: 0.9rem;
+      color: #555;
+      height: 40px;
+      overflow: hidden;
+    }
+    .price {
+      font-size: 1.2rem;
+      color: #28a745;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    .buy-btn {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      width: 100%;
+    }
+    .buy-btn:hover {
+      background: #0056b3;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>Minha Loja Online</header>
+
+<div class="container">
+  <div class="products">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1580910051070-1bdb56b47d08?auto=format&fit=crop&w=400&q=80" alt="Produto 1" />
+      <h3>Produto 1</h3>
+      <p>Descrição rápida do produto 1. Produto de ótima qualidade e preço justo.</p>
+      <div class="price">R$ 49,90</div>
+      <button class="buy-btn">Comprar</button>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=400&q=80" alt="Produto 2" />
+      <h3>Produto 2</h3>
+      <p>Descrição rápida do produto 2. Perfeito para seu dia a dia.</p>
+      <div class="price">R$ 89,90</div>
+      <button class="buy-btn">Comprar</button>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=400&q=80" alt="Produto 3" />
+      <h3>Produto 3</h3>
+      <p>Descrição rápida do produto 3. Produto premium com garantia.</p>
+      <div class="price">R$ 129,90</div>
+      <button class="buy-btn">Comprar</button>
+    </div>
+  </div>
+</div>
+
+<footer>© 2025 Minha Loja Online - Todos os direitos reservados</footer>
+
+</body>
+</html>
